@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #FFF8C9;
+    
+}
+.nav-bar{
+    height: 60px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px grey;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+.course-list{
+    height: 120px;
+    width: 220px;
+    position: absolute;
+    top: 60px;
+    left: 825px;
+    border-radius: 30px;
+    opacity: 0;
+}
+
+
+.course-list ul{
+    list-style-type: none;
+    
+}
+.course-list ul li{
+    padding-left: 20px;
+    background-color: #BEADFA;
+}
+
+.logo{
+    height: 60px;
+    width: 20%;
+
+    
+}
+.logo img{
+    height: 60px;
+}
+.nav-option{
+    display: flex;
+    width: 60%;
+    justify-content: end;
+    align-items: center;
+    margin-right: 70px;
+   
+}
+.nav-option a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-weight: 550;
+    font-size: large;
+    
+}
+.button{
+    height: 40px;
+    width: 150px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    font-weight: 550;
+    font-size: large;
+}
+.main-content{
+    height: 500px;
+    width: 80%;
+    margin-left: 220px;
+    margin-top: 150px;
+
+}
+.tag-line{
+    height: 170px;
+    width: 100%;
+   font-size: 3rem;
+
+}
+h2{
+    font-weight: 700;    
+}
+.tag-para p{
+        font-size: 1.45rem;
+        font-weight: 500;
+        display: inline;
+}
+
+.tag-option{
+        height: 50px;
+        width: 100px;
+        background-color: blue;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+}
+.button-option{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tag-option{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
+    width: 150px;
+    margin-top: 20px;
+}
+.main-about{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: #BEADFA;
+   
+}
+.about_us{
+    display: flex;
+    height: 500px;
+    width: 100%; 
+    margin: 60px 30px 60px 30px;
+    background-color: #BEADFA;
+}
+.about_us .picture{
+    background-color: #BEADFA;
+    height: 500px;
+    margin-right: 40px;
+    
+}
+.about_us .content{
+    background-color: #BEADFA;
+    height: 425px;
+
+}
+.line{
+    height: 5px;
+    width: 70px;
+}
+.content{
+    display: flex;
+    display: inline;
+    font-size: 25px;
+}
+#hr-style{
+    height: 5px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    border-color: blue;
+}
+.about-color{
+    background-color: #BEADFA;
+}
+.list{
+    margin-top: 20px;
+}
+.des{
+    background-color: #BEADFA;
+    padding-top: 10px;
+}
+
+/*  Coourses section......................................................... */
+.courses{
+    height: 650px;
+    width: 100%;
+    border: 1px solid black;
+}
+.courses-layout{
+    height: 600px;
+    /*background-color: aqua;*/
+    width: 92%;
+    margin-left:4%;
+    display: flex;
+    
+}
+.courses-content{
+    margin-top: 100px;
+    margin-right: 60px;
+}
+.image-courses{
+    height: 400px;
+    margin-top: 100px;
+}
+.courses-heading{
+    font-weight: 700;
+    font-size: 60px;
+}
+.courses-hr{
+    width: 150px;
+    height: 10px;
+    background-color: blue;
+    border: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.courses-ul{
+    font-size: 20px;
+    
+}
+.courses-ul li{
+    padding-top: 5px;
+}
+/* nav baar some style for hover related decordation.......................................*/
+
+.deco:hover{
+    box-shadow: 0px 2px 0px 2px #a19968;
+    color: #453091;
+    border-radius: 40px;
+    transition: 0.5s ;
+}
+.img-deco:hover{
+    box-shadow: 15px 15px 15px 15px grey;
+    transition: 0.5s ;
+}
+
+/* Mentorship section.......................................................................*/
+/* all design are same as about_us */
+.mentor-pic{
+    height: 450px;
+} 
